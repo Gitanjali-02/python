@@ -1,21 +1,39 @@
-#7/10/26
-#1.print sum of first 10 even numbers:
-l1=[1,2,3,4,5,6,7,8,9,10]
+
+# 1. Print sum of first 10 even numbers
+total = 0
+for i in range(2, 21, 2):
+    total += i
+print("Sum =", total)
 
 
+# 2. Accept s and n. Print squares of first n numbers starting from s
+s = int(input("Enter starting number: "))
+n = int(input("Enter n: "))
+for i in range(s, s + n):
+    print(i * i)
 
 
-#2.accept two values s and n.print square of first n no starting from s
+# 3. Reverse the accepted string
+s1 = input("Enter a string: ")
+print(s1[::-1])
 
 
-#3.reverse the accepted string
-s1=input("enter name:")
-print(s1)
+# 4. Accept sentence and count vowels
+s = input("Enter a sentence: ")
+count = 0
+for ch in s.lower():
+    if ch in "aeiou":
+        count += 1
+print("Number of vowels =", count)
 
-#4.accept sentence from user and count the vowels
+
+# 5. Remove duplicates from list
+l1 = [1, 2, 3, 2, 4, 1, 5]
+l2 = list(dict.fromkeys(l1))
+print(l2)
 
 
-#5.remove duplicates from list
+# 6. Reverse the list
+l1 = [1, 2, 3, 4, 5]
+print(l1[::-1])
 
-
-#6.Reverse the list
