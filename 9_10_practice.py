@@ -4,11 +4,11 @@ res=[]
 for i in range(1, 11,2):
     for j in range(1, 11):
         res = i * j
-        print(res,"")
+        print(res," ")
     print()
 
 
-#create a heterogenous list of numbers add names.split the list from highest number
+#2.create a heterogenous list of numbers add names.split the list from highest number
 my_list = [1, "Gita", "Mona", 8, 3, "Radha", 4, 5]
 
 # Find the highest number
@@ -27,7 +27,7 @@ print("Second list:", list2)
 
 
 
-#accept the name and check if its pallindrome 
+#3.accept the name and check if its pallindrome 
 n=int(input("enter the no:"))
 rev=0
 temp=n
@@ -41,7 +41,7 @@ else:
 
 
 
-#print tha sum of digits
+#4.print tha sum of digits
 n=int(input("enter the no:"))
 sum=0
 temp=n
@@ -51,7 +51,7 @@ while n>0:
 print("sum of digits:",sum)
 
 
-#print the following pattern 
+#5.print the following pattern 
 #   *
 #   ##
 #   ***
@@ -63,3 +63,6 @@ for i in range(1, 6):
         print("*" * i)
     else:
         print("#" * i)
+
+##add  two element at third position of the list
+ 
